@@ -46,7 +46,7 @@ body {
 
 #logo {
   position: absolute;
-  top: 0px;
+  top: -50px;
   left: -890px;
   transition: left 0.3s ease;
 }

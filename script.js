@@ -64,7 +64,7 @@ window.onload = function() {
 
   setTimeout(function(){
     let logo = document.getElementById('logo');
-    let LfinalPosition = 890;
+    let LfinalPosition = 730;
     logo.style.left = LfinalPosition + "px";
   }, 4000);
 
