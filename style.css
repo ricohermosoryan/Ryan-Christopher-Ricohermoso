@@ -1,0 +1,60 @@
+body {
+  background-image: url("image/background.png");
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+#girlImage {
+  position: relative;
+  left: 650px;
+  top: 130px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#headline1 {
+  position: absolute;
+  left: -800px;
+  bottom: 20px;
+  transition: left 0.1s ease, transform 0.4s ease;
+}
+
+#headline2 {
+  position: absolute;
+  right: -800px;
+  top: 150px;
+  transition: right 0.5s ease;
+}
+
+#subheadline1 {
+  position: absolute;
+  right: 700px;
+  top: 300px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+#learnmore{
+  position: absolute;
+  bottom: 280px;
+  left: 400px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+#logo {
+  position: absolute;
+  top: 0px;
+  left: -890px;
+  transition: left 0.3s ease;
+}
+
+#replay {
+  position: absolute;
+  bottom: 220px;
+  left: 600px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
